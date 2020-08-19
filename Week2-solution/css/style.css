@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+body {font-family: Calibri, Helvetica, sans-serif;}
+h1 {text-align: center; font-size: 28px;}
+section {background-color: #FFA07A;
+    border: 1px solid black; margin: 10px 1% 10px 1%;}
+#title1 {background-color: #ADD8E6;}
+#title2 {background-color: #FFB6C1;}
+#title3 {background-color: #90EE90;}
+div {text-align: center; font-size: 20px; width: 30%;
+	position: relative; left: 70%; border: 1px solid black}
+p {margin: 10px 5% 10px 5%}
+
+@media (min-width: 992px) {
+	section {float: left; width: 31.33%;}}
+@media (min-width: 768px) and (max-width: 991px) {
+    #section1, #section2 {float: left; width: 48%;}
+    #section3 {float: left; width: 98%;}}
+@media (max-width: 767px) {
+	section {margin: 0px 5% 20px 5%}}
