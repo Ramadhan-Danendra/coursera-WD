@@ -29,7 +29,7 @@ WARNING!!! WARNING!!!
 
 */
 
-(function (window) {
+(function () {
 
 // STEP 1:
 // Wrap the entire contents of script.js inside of an IIFE
@@ -62,11 +62,11 @@ for (/* fill in parts of the 'for' loop to loop over names array */
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (/* fill in condition here */ firstLetter == 'j') {
-    window.byeSpeaker.speak(names[person])
+    byeSpeaker.speak(names[person])
   }
   else {
-    window.helloSpeaker.speak(names[person])
+    helloSpeaker.speak(names[person])
   };
 }
 
-})(window);
+})();
